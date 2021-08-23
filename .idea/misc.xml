@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/activity_custom_view.xml" value="0.1" />
+        <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/activity_event_test.xml" value="0.1265625" />
+        <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/activity_handler_test.xml" value="0.1265625" />
+        <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/activity_list_view.xml" value="0.23369565217391305" />
+        <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/activity_menu_test.xml" value="0.1265625" />
+        <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/activity_motion_event_test.xml" value="0.1265625" />
+        <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/activity_popup_window.xml" value="0.1265625" />
+        <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/list_foot_view_layout.xml" value="0.1265625" />
+        <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/list_head_view_layout.xml" value="0.1265625" />
+        <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/popup_window_item.xml" value="0.23369565217391305" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
