@@ -47,6 +47,7 @@ public class PopupWindowActivity extends AppCompatActivity {
         if(mPopupWindow == null){
           mPopupWindow = new PopupWindow(PopupWindowActivity.this);
           mPopupWindow.setWidth(mEditText_input.getWidth());
+          int height = DensityUtil.dip2px(PopupWindowActivity.this,200);
           mPopupWindow.setContentView(mListView);
           mPopupWindow.setFocusable(true);//设置焦点
         }
