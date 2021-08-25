@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  xmlns:ll="http://schemas.android.com/apk/res-auto"
+  android:paddingRight="16dp"
+  android:paddingLeft="16dp"
+  android:paddingTop="16dp"
+  android:paddingBottom="16dp"
+  tools:context=".CustomTest.autoattibute.AutoAttributeActivity">
+
+  <com.example.liandroid.CustomTest.autoattibute.MyAttributeView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    ll:my_age="24"
+    ll:my_name="lili"
+    ll:my_bg="@drawable/d">
+  </com.example.liandroid.CustomTest.autoattibute.MyAttributeView>
+
+</RelativeLayout>
