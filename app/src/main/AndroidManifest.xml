@@ -9,9 +9,18 @@
     android:roundIcon="@mipmap/ic_launcher_round"
     android:supportsRtl="true"
     android:theme="@style/Theme.LiAndroid">
-    <activity android:name=".CustomTest.PopupWindow.PopupWindowActivity"></activity>
+    <activity
+      android:name=".CustomTest.MyViewPager.MyViewPagerActivity"
+      android:exported="true" />
+    <activity
+      android:name=".CustomTest.autoattibute.AutoAttributeActivity"
+      android:exported="true" />
+    <activity
+      android:name=".CustomTest.ToggleButton.ToggleButtonActivity"
+      android:exported="true" />
+    <activity android:name=".CustomTest.PopupWindow.PopupWindowActivity" />
     <activity android:name=".CustomTest.ViewpageActivity" />
-    <activity android:name=".CustomTest.MenuTestActivity"/>
+    <activity android:name=".CustomTest.MenuTestActivity" />
     <activity android:name=".CustomTest.CustomViewActivity" />
     <activity android:name=".event.KeyEventTestActivity" />
     <activity android:name=".event.MotionEventTestActivity" />
@@ -29,10 +38,8 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-
   </application>
 
   <uses-permission android:name="android.permission.CALL_PHONE" />
-
 
 </manifest>

@@ -3,9 +3,9 @@ package com.example.liandroid.CustomTest.PopupWindow;
 import android.content.Context;
 
 /**
- * author: 13482
+ * author: LL
  * created on: 2021/8/23 17:20
- * description:
+ * description:一个分辨率和
  */
 public class DensityUtil {
   /**

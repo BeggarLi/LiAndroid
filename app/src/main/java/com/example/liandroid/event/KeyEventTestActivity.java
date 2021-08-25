@@ -41,7 +41,7 @@ public class KeyEventTestActivity extends AppCompatActivity {
     if(event.getKeyCode() == KeyEvent.KEYCODE_BACK){
       if(!exit){
         exit = true;
-        Toast.makeText(this, "再按一次退出应用", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "再按一次退出当前页面", Toast.LENGTH_SHORT).show();
         mHandler.sendEmptyMessageDelayed(1,2000);
         return true;
       }

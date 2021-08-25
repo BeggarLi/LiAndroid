@@ -13,7 +13,7 @@
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintRight_toRightOf="parent"
     app:layout_constraintLeft_toLeftOf="parent"
-    android:text="menu_test">
+    android:text="菜单">
   </Button>
 
   <Button
@@ -23,7 +23,7 @@
     app:layout_constraintTop_toBottomOf="@+id/custom_view_menu_test_button"
     app:layout_constraintRight_toRightOf="parent"
     app:layout_constraintLeft_toLeftOf="parent"
-    android:text="viewpage_test">
+    android:text="viewpage">
   </Button>
 
   <Button
@@ -33,7 +33,35 @@
     app:layout_constraintTop_toBottomOf="@+id/custom_view_viewpage_test_button"
     app:layout_constraintRight_toRightOf="parent"
     app:layout_constraintLeft_toLeftOf="parent"
-    android:text="poputwindow">
+    android:text="下拉框">
+  </Button>
+  <Button
+    android:id="@+id/custom_view_toggle_button"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@+id/custom_view_popupwindow_button"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:text="自定义开关">
+  </Button>
+
+  <Button
+    android:id="@+id/custom_view_auto_attribute_button"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@+id/custom_view_toggle_button"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:text="自定义属性">
+  </Button>
+  <Button
+    android:id="@+id/custom_view_MyViewPager_button"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@+id/custom_view_auto_attribute_button"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:text="自定义ViewPager">
   </Button>
 
 

@@ -3,13 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/activity_auto_attribute.xml" value="0.23369565217391305" />
         <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/activity_custom_view.xml" value="0.1" />
         <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/activity_event_test.xml" value="0.1265625" />
         <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/activity_handler_test.xml" value="0.1265625" />
         <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/activity_list_view.xml" value="0.23369565217391305" />
+        <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/activity_main.xml" value="0.12364130434782608" />
         <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/activity_menu_test.xml" value="0.1265625" />
         <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/activity_motion_event_test.xml" value="0.1265625" />
+        <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/activity_my_view_pager.xml" value="0.12291666666666666" />
         <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/activity_popup_window.xml" value="0.1265625" />
+        <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/activity_toggle_button.xml" value="0.1265625" />
         <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/list_foot_view_layout.xml" value="0.1265625" />
         <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/list_head_view_layout.xml" value="0.1265625" />
         <entry key="..\:/ll/LiAndroid/app/src/main/res/layout/popup_window_item.xml" value="0.23369565217391305" />

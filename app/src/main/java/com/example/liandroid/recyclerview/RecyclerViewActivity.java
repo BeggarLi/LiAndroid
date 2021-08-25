@@ -16,7 +16,6 @@ public class RecyclerViewActivity extends AppCompatActivity {
 
   private RecyclerView mRecyclerView;
   private ContactListAdapter mContactListAdapter;
-
   private List<Contact> mContacts = new ArrayList<>();
 
   public static void start(@NonNull Activity activity) {
@@ -27,9 +26,7 @@ public class RecyclerViewActivity extends AppCompatActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-
     setContentView(R.layout.activity_recycler_view);
-
     initData();
     initView();
   }
