@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.liandroid.customtest.slidemenu.SlideLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="80dp">
+  <include
+    layout="@layout/slid_menu_item_content"/>
+  <include
+    android:id="@+id/slid_menu_item_menu"
+    layout="@layout/slid_menu_item_menu"/>
+</com.example.liandroid.customtest.slidemenu.SlideLayout>
