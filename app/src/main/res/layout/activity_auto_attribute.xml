@@ -8,14 +8,14 @@
   android:paddingLeft="16dp"
   android:paddingTop="16dp"
   android:paddingBottom="16dp"
-  tools:context=".CustomTest.autoattibute.AutoAttributeActivity">
+  tools:context=".customtest.autoattibute.AutoAttributeActivity">
 
-  <com.example.liandroid.CustomTest.autoattibute.MyAttributeView
+  <com.example.liandroid.customtest.autoattibute.MyAttributeView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     ll:my_age="24"
     ll:my_name="lili"
     ll:my_bg="@drawable/d">
-  </com.example.liandroid.CustomTest.autoattibute.MyAttributeView>
+  </com.example.liandroid.customtest.autoattibute.MyAttributeView>
 
 </RelativeLayout>

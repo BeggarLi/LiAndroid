@@ -1,4 +1,4 @@
-package com.example.liandroid.CustomTest.MyViewPager;
+package com.example.liandroid.customtest.myviewpager;
 
 import android.os.SystemClock;
 

@@ -4,12 +4,12 @@ import android.os.Bundle;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.liandroid.CustomTest.CustomViewActivity;
+import com.example.liandroid.Contactrecyclerview.ContactListActivity;
+import com.example.liandroid.customtest.CustomViewActivity;
 import com.example.liandroid.R;
 import com.example.liandroid.event.EventTestActivity;
 import com.example.liandroid.handler.HandlerTestActivity;
 import com.example.liandroid.listview.ListViewActivity;
-import com.example.liandroid.recyclerview.RecyclerViewActivity;
 import com.example.liandroid.runtimepermission.RuntimePermissionActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     });
 
     mButton3.setOnClickListener(v -> {
-      RecyclerViewActivity.start(MainActivity.this);
+      ContactListActivity.start(MainActivity.this);
     });
 
     mButton4.setOnClickListener(v -> {

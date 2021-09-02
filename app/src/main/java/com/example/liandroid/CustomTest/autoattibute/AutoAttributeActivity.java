@@ -1,4 +1,4 @@
-package com.example.liandroid.CustomTest.autoattibute;
+package com.example.liandroid.customtest.autoattibute;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

@@ -4,15 +4,15 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  tools:context=".CustomTest.ToggleButton.ToggleButtonActivity">
+  tools:context=".customtest.togglebutton.ToggleButtonActivity">
 
-  <com.example.liandroid.CustomTest.ToggleButton.MyToggleButton
+  <com.example.liandroid.customtest.togglebutton.MyToggleButton
     android:layout_width="500dp"
     android:layout_height="500dp"
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintStart_toStartOf="parent">
-  </com.example.liandroid.CustomTest.ToggleButton.MyToggleButton>
+  </com.example.liandroid.customtest.togglebutton.MyToggleButton>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

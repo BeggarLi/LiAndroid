@@ -1,10 +1,9 @@
-package com.example.liandroid.CustomTest.PopupWindow;
+package com.example.liandroid.customtest.popupwindow;
 
 import java.util.ArrayList;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.icu.text.Transliterator;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;

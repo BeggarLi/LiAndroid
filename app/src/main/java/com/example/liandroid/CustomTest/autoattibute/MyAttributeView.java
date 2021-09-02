@@ -1,4 +1,4 @@
-package com.example.liandroid.CustomTest.autoattibute;
+package com.example.liandroid.customtest.autoattibute;
 
 import android.content.Context;
 import android.content.res.TypedArray;

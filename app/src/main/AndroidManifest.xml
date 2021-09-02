@@ -10,23 +10,28 @@
     android:supportsRtl="true"
     android:theme="@style/Theme.LiAndroid">
     <activity
-      android:name=".CustomTest.MyViewPager.MyViewPagerActivity"
+      android:name=".customtest.slidemenu.SlideMenuActivity"
       android:exported="true" />
     <activity
-      android:name=".CustomTest.autoattibute.AutoAttributeActivity"
+      android:name=".Contactrecyclerview.ContactListActivity"
       android:exported="true" />
     <activity
-      android:name=".CustomTest.ToggleButton.ToggleButtonActivity"
+      android:name=".customtest.myviewpager.MyViewPagerActivity"
       android:exported="true" />
-    <activity android:name=".CustomTest.PopupWindow.PopupWindowActivity" />
-    <activity android:name=".CustomTest.ViewpageActivity" />
-    <activity android:name=".CustomTest.MenuTestActivity" />
-    <activity android:name=".CustomTest.CustomViewActivity" />
+    <activity
+      android:name=".customtest.autoattibute.AutoAttributeActivity"
+      android:exported="true" />
+    <activity
+      android:name=".customtest.togglebutton.ToggleButtonActivity"
+      android:exported="true" />
+    <activity android:name=".customtest.popupwindow.PopupWindowActivity" />
+    <activity android:name=".customtest.viewpager.ViewpageActivity" />
+    <activity android:name=".customtest.menu.MenuTestActivity" />
+    <activity android:name=".customtest.CustomViewActivity" />
     <activity android:name=".event.KeyEventTestActivity" />
     <activity android:name=".event.MotionEventTestActivity" />
     <activity android:name=".event.EventTestActivity" />
     <activity android:name=".listview.ListViewActivity" />
-    <activity android:name=".recyclerview.RecyclerViewActivity" />
     <activity android:name=".runtimepermission.RuntimePermissionActivity" />
     <activity android:name=".handler.HandlerTestActivity" />
     <activity

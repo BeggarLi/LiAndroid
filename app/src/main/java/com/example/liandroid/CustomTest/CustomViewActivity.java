@@ -1,4 +1,4 @@
-package com.example.liandroid.CustomTest;
+package com.example.liandroid.customtest;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,11 +8,14 @@ import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.liandroid.CustomTest.PopupWindow.PopupWindowActivity;
-import com.example.liandroid.CustomTest.ToggleButton.ToggleButtonActivity;
-import com.example.liandroid.CustomTest.autoattibute.AutoAttributeActivity;
-import com.example.liandroid.CustomTest.MyViewPager.MyViewPagerActivity;
+import com.example.liandroid.customtest.menu.MenuTestActivity;
+import com.example.liandroid.customtest.popupwindow.PopupWindowActivity;
+import com.example.liandroid.customtest.slidemenu.SlideMenuActivity;
+import com.example.liandroid.customtest.togglebutton.ToggleButtonActivity;
+import com.example.liandroid.customtest.autoattibute.AutoAttributeActivity;
+import com.example.liandroid.customtest.myviewpager.MyViewPagerActivity;
 import com.example.liandroid.R;
+import com.example.liandroid.customtest.viewpager.ViewpageActivity;
 
 public class CustomViewActivity extends AppCompatActivity {
   private Button mButton1;
@@ -21,6 +24,7 @@ public class CustomViewActivity extends AppCompatActivity {
   private Button mButton4;
   private Button mButton5;
   private Button mButton6;
+  private Button mButton7;
 
   public static void start(@NonNull Activity activity){
     Intent intent = new Intent(activity,CustomViewActivity.class);
@@ -37,6 +41,7 @@ public class CustomViewActivity extends AppCompatActivity {
     mButton4 = findViewById(R.id.custom_view_toggle_button);
     mButton5 = findViewById(R.id.custom_view_auto_attribute_button);
     mButton6 = findViewById(R.id.custom_view_MyViewPager_button);
+    mButton7 = findViewById(R.id.custom_view_slid_menu_button);
 
     mButton1.setOnClickListener(new View.OnClickListener() {
       @Override
@@ -62,6 +67,9 @@ public class CustomViewActivity extends AppCompatActivity {
     });
     mButton6.setOnClickListener(view -> {
       MyViewPagerActivity.start(CustomViewActivity.this);
+    });
+    mButton7.setOnClickListener(view -> {
+      SlideMenuActivity.start(CustomViewActivity.this);
     });
 
 

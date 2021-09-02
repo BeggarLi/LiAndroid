@@ -1,4 +1,4 @@
-package com.example.liandroid.CustomTest.ToggleButton;
+package com.example.liandroid.customtest.togglebutton;
 
 import android.content.Context;
 import android.graphics.Bitmap;

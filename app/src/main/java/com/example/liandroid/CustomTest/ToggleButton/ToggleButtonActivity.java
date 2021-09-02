@@ -1,4 +1,4 @@
-package com.example.liandroid.CustomTest.ToggleButton;
+package com.example.liandroid.customtest.togglebutton;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -6,7 +6,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.example.liandroid.CustomTest.CustomViewActivity;
 import com.example.liandroid.R;
 
 public class ToggleButtonActivity extends AppCompatActivity {
