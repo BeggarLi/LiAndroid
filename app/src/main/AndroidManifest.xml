@@ -10,6 +10,9 @@
     android:supportsRtl="true"
     android:theme="@style/Theme.LiAndroid">
     <activity
+      android:name=".customtest.wava.WaveActivity"
+      android:exported="true" />
+    <activity
       android:name=".customtest.slidemenu.SlideMenuActivity"
       android:exported="true" />
     <activity

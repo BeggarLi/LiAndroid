@@ -16,6 +16,7 @@ import com.example.liandroid.customtest.autoattibute.AutoAttributeActivity;
 import com.example.liandroid.customtest.myviewpager.MyViewPagerActivity;
 import com.example.liandroid.R;
 import com.example.liandroid.customtest.viewpager.ViewpageActivity;
+import com.example.liandroid.customtest.wava.WaveActivity;
 
 public class CustomViewActivity extends AppCompatActivity {
   private Button mButton1;
@@ -25,6 +26,7 @@ public class CustomViewActivity extends AppCompatActivity {
   private Button mButton5;
   private Button mButton6;
   private Button mButton7;
+  private Button mButton8;
 
   public static void start(@NonNull Activity activity){
     Intent intent = new Intent(activity,CustomViewActivity.class);
@@ -42,6 +44,7 @@ public class CustomViewActivity extends AppCompatActivity {
     mButton5 = findViewById(R.id.custom_view_auto_attribute_button);
     mButton6 = findViewById(R.id.custom_view_MyViewPager_button);
     mButton7 = findViewById(R.id.custom_view_slid_menu_button);
+    mButton8 = findViewById(R.id.custom_view_wave_button);
 
     mButton1.setOnClickListener(new View.OnClickListener() {
       @Override
@@ -71,7 +74,9 @@ public class CustomViewActivity extends AppCompatActivity {
     mButton7.setOnClickListener(view -> {
       SlideMenuActivity.start(CustomViewActivity.this);
     });
-
+    mButton8.setOnClickListener(view -> {
+      WaveActivity.start(CustomViewActivity.this);
+    });
 
   }
 }
