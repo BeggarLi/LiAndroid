@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
   private Button mButton4;
   private Button mButton5;
   private Button mButton6;
+  private Button mButton7;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     mButton4 = findViewById(R.id.main_page_Listview_test_button);
     mButton5 = findViewById(R.id.main_page_event_test_button);
     mButton6 = findViewById(R.id.main_page_custom_test_button);
-
+    mButton7 =findViewById(R.id.main_page_custom_event_bus_button);
     mButton1.setOnClickListener(v -> {
       HandlerTestActivity.start(MainActivity.this);
     });
@@ -53,6 +54,10 @@ public class MainActivity extends AppCompatActivity {
 
     mButton6.setOnClickListener(v -> {
       CustomViewActivity.start(MainActivity.this);
+    });
+
+    mButton7.setOnClickListener(view -> {
+
     });
   }
 }
